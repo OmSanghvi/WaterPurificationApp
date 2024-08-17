@@ -1,19 +1,25 @@
-// src/app/layout.js
-import './globals.css'; // Optional: if you have any global styles
+import './globals.css';
 
 export default function Layout({ children }) {
     return (
         <html lang="en">
         <head>
-            <title>Water Purification System</title>
+            <title>Microplastic Purifiers</title>
         </head>
         <body>
         <header>
-            <h1>Water Purification System Simulation</h1>
+            <h1 className="header-title">Microplastics Purifiers</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/product">Product</a></li>
+                </ul>
+            </nav>
         </header>
         <main>{children}</main>
         <footer>
-            <p>&copy; 2024 Water Purification System</p>
+            <p>&copy; 2024 Microplastic Purifiers</p>
         </footer>
         </body>
         </html>
