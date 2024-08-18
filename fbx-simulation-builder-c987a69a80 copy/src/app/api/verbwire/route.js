@@ -11,7 +11,7 @@ export async function POST(req) {
 
   if (url.endsWith('/start-purification')) {
     if (action === 'start') {
-      return new Response(JSON.stringify({ message: 'Purification started!' }), { status: 200 });
+      return new Response(JSON.stringify({ message: 'Model active started!' }), { status: 200 });
     }
 
     return new Response(JSON.stringify({ message: 'Unknown action' }), { status: 400 });
