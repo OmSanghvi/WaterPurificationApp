@@ -7,7 +7,7 @@ import * as THREE from 'three';
 import { OrbitControls } from '@react-three/drei';
 
 const FBXModel = ({ visible }) => {
-    const fbx = useLoader(FBXLoader, '/WaterPurifier.fbx'); // Path to your FBX file
+    const fbx = useLoader(FBXLoader, '/WaterPurifier.fbx');
 
     useEffect(() => {
         if (fbx) {
@@ -28,7 +28,7 @@ export default function Page() {
     const [showModel, setShowModel] = useState(false);
 
     const startPurification = () => {
-        setStatus('Showing model...'); // Show the model
+        setStatus('Showing model...');
         setTimeout(() => {
             setStatus('Model Shown');
             setShowModel(true);
