@@ -1,4 +1,3 @@
-// src/app/product.js
 export default function Product() {
     return (
         <div>
