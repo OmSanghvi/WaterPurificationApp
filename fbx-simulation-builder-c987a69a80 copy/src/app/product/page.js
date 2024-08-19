@@ -1,6 +1,6 @@
 export default function Product() {
     return (
-        <div>
+        <div className = "fade-in">
             <h2 className="product-title">Our Product</h2>
             <img src="/WaterPurifier.png" className="product-image" alt="Product Image" />
             <h3>Problem</h3>
