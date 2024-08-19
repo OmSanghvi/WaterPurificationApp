@@ -18,7 +18,6 @@ export async function POST(req) {
   }
 
   if (url.endsWith('/data')) {
-    // Fetch data from an external source
     const data = { message: 'Data fetched successfully' };
     return new Response(JSON.stringify(data), { status: 200 });
   }
