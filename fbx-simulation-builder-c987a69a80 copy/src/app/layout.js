@@ -19,7 +19,7 @@ export default function Layout({ children }) {
         </header>
         <main>{children}</main>
         <footer>
-            <p>&copy; 2024 Microplastic Purifiers</p>
+            <p style={{color: 'white'}}>&copy; 2024 Microplastic Purifiers</p>
         </footer>
         </body>
         </html>
